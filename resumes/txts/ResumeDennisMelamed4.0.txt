@@ -1,0 +1,50 @@
+﻿
+Dennis Melamed
+
+763-656-9518
+dennis@dennismelamed.me
+www.dennismelamed.me
+Programming Languages:
+Robotics Tools:
+Other Tools:
+Languages:
+C++, Embedded C, Python, MatLab, Java
+Robotic Operating System, Gazebo, V-REP, OpenCV, Keras, PyTorch
+Unix ecosystem, Windows kernel development, CUDA/openACC
+English (native), Russian (native), Spanish (proficient)
+
+EDUCATION
+Carnegie Mellon University		  				      2019 – 2021 (expected)
+    • Master of Science in Robotics
+    • Advisor: Prof. Kris Kitani
+University of Minnesota                                                                                             2015 – 2019
+    • Bachelor of Science (Honors) in Computer Engineering, Summa Cum Laude with Distinction
+    • Thesis: Indoor Micro-UAV Navigation with Minimal Sensing (Prof. Volkan Isler & Prof. Derya Aksaray)
+    • IEEE-Eta Kappa Nu – Omicron Student Chapter – Vice President 2018-2019
+
+WORK EXPERIENCE
+Nextdroid Robotics, Software Engineering Intern 				           Summer 2018
+    • Achieved sensorless high-precision motor speed control for subsea robotic platform
+    • Co-developed high-accuracy image processing pipeline on military hardware
+    • Designed data storage architecture using Ruby/AWS for secure client data processing
+National Instruments, Software Engineering Intern   		     	                     Summer 2017
+    • Implemented network interfaces for measurement device drivers
+    • Developed encryption schemes for device firmware/driver communication
+Robotic Sensor Network Laboratory, Research Assistant			                2015-2019
+    • Research in autonomous robotic rendezvous problems
+    • Development of GPS-denied micro-UAV platform for agricultural monitoring
+Department of Civil Engineering, Computer Science Research Assistant	     2015-2016
+    • Massively parallelized state-of-art wave algorithms & designed MN Dept. of Transport user interfaces
+Laketrails Base Camp, Guide							                2014-2015
+    • Led teenagers on five day canoe trips in Northern Minnesota
+
+PROJECTS
+Gesture Based Micro-UAV Control						                  Fall 2017
+    • High precision gesture tracking to control micro-UAV flight & control language for flight plans
+Micro-UAV Agricultural Monitoring Platform				                2017-2019
+    • Fully autonomous system for data collection in restricted environments
+    • Lightweight (<50g) package for quick and easy deployment
+Contour Plot Software/Wrappers  						              Spring 2016
+    • Java software rapidly reads/processes/displays data from ground penetrating radar 
+iRobot Create Autonomous Navigation						        Fall 2015
+    • C++ implementation of autonomous navigation algorithm with minimal sensing
