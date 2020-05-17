@@ -2751,6 +2751,18 @@
 			color: #00cdcf;
 		}
 
+
+        .img-circular{
+ width: 200px;
+ height: 200px;
+ background-image: url('http://strawberry-fest.org/wp-content/uploads/2012/01/Coca-Cola-logo.jpg');
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+}
+
 /* Wrapper */
 
 	.wrapper {
@@ -3642,7 +3654,7 @@
 
 		#banner p {
 			font-size: 1.5em;
-			text-transform: uppercase;
+			/*text-transform: uppercase;*/
 			width: 75%;
 			padding: 0 0 0 25%;
 			
