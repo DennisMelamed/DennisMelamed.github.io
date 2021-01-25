@@ -8,19 +8,24 @@ Programming Languages:
 Robotics Tools:
 Other Tools:
 Languages:
-C++, Embedded C, Python, MatLab, Java
+Python, C++, Embedded C, MATLAB, Java
 Robotic Operating System, Gazebo, V-REP, OpenCV, Keras, PyTorch
 Unix ecosystem, Windows kernel development, CUDA/openACC
 English (native), Russian (native), Spanish (proficient)
 
 EDUCATION
 Carnegie Mellon University		  				      2019 – 2021 (expected)
-    • Master of Science in Robotics
-    • Advisor: Prof. Kris Kitani
+    • Master of Science in Robotics, Research Thesis Advisor: Prof. Kris Kitani 
+    • Selected Coursework: Computer Vision; Kinematics, Dynamics & Control; Localization & Mapping; Reinforcement Learning
 University of Minnesota                                                                                             2015 – 2019
     • Bachelor of Science (Honors) in Computer Engineering, Summa Cum Laude with Distinction
     • Thesis: Indoor Micro-UAV Navigation with Minimal Sensing (Prof. Volkan Isler & Prof. Derya Aksaray)
     • IEEE-Eta Kappa Nu – Omicron Student Chapter – Vice President 2018-2019
+
+PUBLICATIONS
+Inertial Deep Orientation-estimation and Localization                                2019-2020
+    • State-of-the-art deep-learning method for IMU-only pedestrian localization
+    • Scott Sun, Dennis Melamed, Kris Kitani. “Inertial Deep Orientation-estimation and Localization”. AAAI 2021 (in press)
 
 WORK EXPERIENCE
 Nextdroid Robotics, Software Engineering Intern 				           Summer 2018
@@ -38,13 +43,10 @@ Department of Civil Engineering, Computer Science Research Assistant	     2015-2
 Laketrails Base Camp, Guide							                2014-2015
     • Led teenagers on five day canoe trips in Northern Minnesota
 
-PROJECTS
+MORE PROJECTS
 Gesture Based Micro-UAV Control						                  Fall 2017
     • High precision gesture tracking to control micro-UAV flight & control language for flight plans
 Micro-UAV Agricultural Monitoring Platform				                2017-2019
-    • Fully autonomous system for data collection in restricted environments
-    • Lightweight (<50g) package for quick and easy deployment
-Contour Plot Software/Wrappers  						              Spring 2016
-    • Java software rapidly reads/processes/displays data from ground penetrating radar 
-iRobot Create Autonomous Navigation						        Fall 2015
-    • C++ implementation of autonomous navigation algorithm with minimal sensing
+    • Lightweight (<50g) fully autonomous system for data collection in restricted environments
+Campchat 						                                                                Summer 2020
+    • Android app + hardware allowing LoRa text communication when cell networks are unavailable
