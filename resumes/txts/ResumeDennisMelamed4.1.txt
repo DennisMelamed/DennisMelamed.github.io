@@ -6,20 +6,23 @@ www.dennismelamed.me
 
 EDUCATION
 Carnegie Mellon University, Robotics Institute 	  				      
-    • Master of Science in Robotics (August 2019 – July 2021)
+    • Master of Science in Robotics, Prof. Kris Kitani (August 2019 – July 2021)
     • Selected Coursework: Computer Vision; Kinematics, Dynamics & Control; Localization & Mapping; Reinforcement Learning
 University of Minnesota, Dept. of Electrical and Computer Engineering                                                                                             
     • B.S. Computer Engineering, Summa Cum Laude with Distinction (Sept. 2015 – May 2019)
-    • Thesis: Indoor Micro-UAV Navigation with Minimal Sensing
+    • Thesis: Indoor Micro-UAV Navigation with Minimal Sensing (Profs. Volkan Isler & Derya Aksaray)
     • IEEE-Eta Kappa Nu – Omicron Student Chapter – Vice President 2018-2019
 
 SKILLS
 Programming Languages:
 Robotics Tools:
 Other Tools:
+Languages:
+
 Python, C++, Embedded C, MATLAB, Java, Ruby
 Robotic Operating System, Gazebo, V-REP, OpenCV, Keras, PyTorch
 Unix ecosystem, Windows kernel development, CUDA/openACC, AWS
+English (native), Russian (native), Spanish (proficient)
 
 WORK EXPERIENCE
 Nextdroid Robotics, Software Engineering Intern 				       June - Aug 2018
