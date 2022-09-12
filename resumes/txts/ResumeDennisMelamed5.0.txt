@@ -1,0 +1,54 @@
+﻿
+Dennis Melamed
+763-656-9518
+dennis@dennismelamed.me
+www.dennismelamed.me
+
+EDUCATION
+Carnegie Mellon University, Robotics Institute 	  				      
+    • Master of Science in Robotics, Prof. Kris Kitani (August 2019 – July 2021)
+    • Selected Coursework: Kinematics, Dynamics & Control; Localization & Mapping; Reinforcement Learning
+University of Minnesota, Dept. of Electrical and Computer Engineering                                                                                             
+    • B.S. Computer Engineering, Summa Cum Laude with Distinction (Sept. 2015 – May 2019)
+    • Thesis: Indoor Micro-UAV Navigation with Minimal Sensing (Profs. Volkan Isler & Derya Aksaray)
+    • IEEE-Eta Kappa Nu – Omicron Student Chapter – Vice President 2018-2019
+
+SKILLS
+Programming Languages:
+Robotics Tools:
+Other Tools:
+Languages:
+
+Python, C++, Embedded C, MATLAB, Java, Ruby
+Robotic Operating System, Gazebo, V-REP, OpenCV, Keras, PyTorch
+Unix ecosystem, Windows kernel development, CUDA/openACC, AWS, XPatch 
+English (native), Russian (native), Spanish (proficient)
+
+WORK EXPERIENCE
+Kitware, Research & Development Engineer    				                    2021 - present
+    • Designed systems to identify biases in xView2 dataset, improving satellite damage detection networks
+    • Implemented confidence-aware detectors to improve re-ID performance in challenging scenarios 
+Nextdroid Robotics, Software Engineering Intern 				       June - Aug 2018
+    • Achieved sensorless high-precision motor speed control for subsea robotic platform
+    • Co-developed high-accuracy image processing on military hardware for aerial scene understanding 
+National Instruments, Software Engineering Intern   		     	                  June - Aug 2017
+    • Implemented network interfaces for measurement device drivers to maintain stability on newer platforms
+    • Developed encryption systems to allow first-in-company secure device firmware/driver communication
+Robotic Sensor Network Laboratory, Research Assistant			                2015-2019
+    • Developed GPS-denied micro-UAV platform for agriculture using ROS, C, and V-REP simulation
+    • Designed and trialed computer vision system for micro-UAV control using low-resolution imaging
+Department of Civil Engineering, Computer Science Research Assistant	     2015-2016
+    • Parallelized state-of-art wave propagation algorithms to speed concrete simulations by 10x
+    • Designed MN Dept. of Transport user interfaces to ease ground-penetrating radar data analysis
+
+MORE PROJECTS
+Micro-UAV Agricultural Monitoring Platform, U of MN				      2017-2019
+    • Designed lightweight (<50g) fully autonomous system for data collection in restricted environments
+Gesture Based Micro-UAV Control, U of MN					       Sept - Dec 2017
+    • Architected & developed high precision gesture tracking system to control micro-UAV flight
+
+PUBLICATIONS
+Learnable Spatio-Temporal Map Embeddings for Deep Inertial Localization     2021 -2022
+    • Learned system to introduce map constraints into odometry-only settings (to appear at IROS 2022)
+Inertial Deep Orientation-estimation and Localization, CMU                       2019-2020
+    • State-of-the-art deep-learning method for IMU-only pedestrian localization (AAAI 2021)
