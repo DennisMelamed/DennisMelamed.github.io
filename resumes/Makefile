@@ -4,7 +4,7 @@ MOST_RECENT_PDF_FILE = $(shell print -l -r -- pdfs/*(n) | tail -1)
 
 all: resume recent_update
 
-recent_update: resume
+recent_update:
 	@cp $(MOST_RECENT_PDF_FILE) most_recent/ResumeDennisMelamed.pdf
 	@git add most_recent/ResumeDennisMelamed.pdf $(MOST_RECENT_PDF_FILE) $(DOC_FILE)
 
