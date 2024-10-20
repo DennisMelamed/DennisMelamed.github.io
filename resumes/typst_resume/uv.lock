@@ -1,0 +1,44 @@
+version = 1
+requires-python = ">=3.9"
+
+[[package]]
+name = "typst"
+version = "0.11.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/dd/d2/732b5b29afae9aa58996719a5e555b19cc98815c728c63e24f4e0f046c7f/typst-0.11.1.tar.gz", hash = "sha256:56a336fef1dbec6ae678d87d680a90ad07c8739bc0599b54fdd7fa351a4efa56", size = 4698002 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/17/eb/e1c5d59399365c71b12fe5ea6bb0d87f5ca21e2bf001e7a3758fae3b0c23/typst-0.11.1-cp37-abi3-macosx_10_12_x86_64.whl", hash = "sha256:ec50fc97f8afe6da1f8787a72f77f04ddf14e007c88a1b130cb8122a405e4e63", size = 15923517 },
+    { url = "https://files.pythonhosted.org/packages/78/86/de6f5e35b5d4babcbef9719c2afcd02ec3a4196d0da6bf521700bb49c003/typst-0.11.1-cp37-abi3-macosx_11_0_arm64.whl", hash = "sha256:c8af0dabc95a761b07f19c4551da9176bc1b408a9abf9d5d0ab93da3d616abf6", size = 15477796 },
+    { url = "https://files.pythonhosted.org/packages/8f/1a/bff4316051320b860fe1be4366a68cdc92423c188074c9ebaeb5df68e320/typst-0.11.1-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:3d6bf84d7e1c8402241d10874a4dc4df4995dcff0a581c47b1def92cc4de322b", size = 17816555 },
+    { url = "https://files.pythonhosted.org/packages/5b/da/c08f660004a3b1a29c71c6ceca4b5dd5bb1ee5e2d659200b5cb2a9bd564d/typst-0.11.1-cp37-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:11c925fab98fdce6b3f8c498c399eed7224d7a315348aa46e2bb0d9a40af5baa", size = 18188207 },
+    { url = "https://files.pythonhosted.org/packages/fb/4f/25db2c3a9f0a5f076ba6a482b33e2a67156a992c49d96dea8d58237ebd39/typst-0.11.1-cp37-abi3-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:812b99f617aabb599508e132cdc881a751d89ad32504def774d3e3b765425872", size = 19036382 },
+    { url = "https://files.pythonhosted.org/packages/a9/57/3db50dca9d238255c9fb312af9359f5a684d4d7ee4f802a7f8097f93102a/typst-0.11.1-cp37-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:75313042a605c15649f23eb074c5df34bca66f5b921cd043651afd80ff3ad9f0", size = 17537785 },
+    { url = "https://files.pythonhosted.org/packages/6c/32/9e6ef220c57d978200d9de1274c76f68cddcdac04a27e1b5d56108220bc5/typst-0.11.1-cp37-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:ffba53328e317b9b0a4e9d05573c98c7f7d4e555259e1ff5a9a2169a85232d71", size = 19851787 },
+    { url = "https://files.pythonhosted.org/packages/5a/dc/16b646856753702d880b5af1207254cbd00ace25c4ae21cc67348e321448/typst-0.11.1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:ef8e44bec7a2e168a92aec2fa8008328b630d137753c0550ba654c7855d2893a", size = 18279308 },
+    { url = "https://files.pythonhosted.org/packages/44/42/a2e36c7510c10db754ab915b4b3c05093c0ff0affdf67a5f96a777d130c6/typst-0.11.1-cp37-abi3-win32.whl", hash = "sha256:e2ccebab8f9fc49b2b212d6af0e349aa6cd8fc043c343bf5719aa1ef7dae354f", size = 14524026 },
+    { url = "https://files.pythonhosted.org/packages/61/a2/df2b12b51fc13387377c371ac7518729c655d0c8eee02f8a6d85b0aa5efd/typst-0.11.1-cp37-abi3-win_amd64.whl", hash = "sha256:3874f7910687406ee7e80de1aec58487c305b76893b50a3a869496105a5767a5", size = 14976055 },
+]
+
+[[package]]
+name = "typst-resume"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "typst" },
+    { name = "ubelt" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "typst", specifier = ">=0.11.1" },
+    { name = "ubelt", specifier = ">=1.3.6" },
+]
+
+[[package]]
+name = "ubelt"
+version = "1.3.6"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/1a/cd/8ef3625e5cc5dad50d64cd6a2486fc7adc667d8728ae6deaa29ec49943e0/ubelt-1.3.6.tar.gz", hash = "sha256:327a516a1fc95595096727ae3ae879379bc56fc11fb945857b971ef85a74f698", size = 295494 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c0/e4/19156ec457623f69787296211a54556bada7af941358c6b2b7da86e90c17/ubelt-1.3.6-py3-none-any.whl", hash = "sha256:2a38f260e7f3c25d3618f653d5c900230dc5af56bf0bc1ff85cfdbe9d0c88f0f", size = 231054 },
+]
