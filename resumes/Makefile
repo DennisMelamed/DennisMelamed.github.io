@@ -1,5 +1,5 @@
 SHELL=zsh
-DOC_FILE := $(shell print -l -r -- docs/*(n) | tail -1)
+JSON_FILE := $(shell print -l -r -- json/*(n) | tail -1)
 MOST_RECENT_PDF_FILE = $(shell print -l -r -- pdfs/*(n) | tail -1)
 
 all: resume recent_update
@@ -13,9 +13,10 @@ resume: FORCE
 	@echo "--------------------"
 	@echo $(DOC_FILE)
 	@echo "[PDF]"
-	@/Applications/LibreOffice.app/Contents/MacOS/soffice --headless --convert-to pdf $(DOC_FILE) --outdir pdfs/
-	@echo "[TXT]"
-	@/Applications/LibreOffice.app/Contents/MacOS/soffice --headless --convert-to txt $(DOC_FILE) --outdir txts/
+	@cd typst_resume && uv run src/typst_resume/gen_typst.py ../json/ ../pdfs ../typst #$(JSON_FILE) /tmp/intermediate ../pdfs
+#	@/Applications/LibreOffice.app/Contents/MacOS/soffice --headless --convert-to pdf $(DOC_FILE) --outdir pdfs/
+#	@echo "[TXT]"
+#	@/Applications/LibreOffice.app/Contents/MacOS/soffice --headless --convert-to txt $(DOC_FILE) --outdir txts/
 	@echo "done!"
 	@echo "--------------------"
 

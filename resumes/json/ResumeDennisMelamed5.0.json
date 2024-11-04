@@ -14,11 +14,11 @@
             "start_date": "Aug 2021",
             "end_date": "Present",
             "notes": [
-                "Developed building damage identification systems for satellite imagery, reducing training data needs 1000x.",
-                "Released open source dataset of examples of hyper-local building damage",
-                "Designed framework to deconflict multiple object detectors using prior information and detector trust metrics",
-                "Developed tablet-based inspection tool to find & localize defects to 5 cm accuracy on 3D model of 15 meter object.",
-                "Designed pose estimation algorithms and experimental hardware for event-camera star tracking, achieving 10-20 arcsecond accuracy."
+                "Trained building damage identification systems for satellite imagery, reducing training data needs 1000x.@melamed_rapid_2023",
+                "Created & released open dataset for training building damage detectors @melamed_uncovering_2024",
+                "Designed framework to deconflict multiple object detectors using prior information and detector trust metrics @davila_multi-atr_2023",
+                "Architected & developed inspection tool (as lead of 5 person team) for localizing defects on large airframe to 5 cm accuracy.",
+                "Developed pose estimation algorithms & experimental hardware for event-camera star tracking, achieving 10-20 arcsecond accuracy."
             ]
         },
         {
@@ -70,7 +70,7 @@
             "start_date": "Aug 2019",
             "end_date": "July 2021",
             "location": "Pittsburgh, PA",
-            "thesis": "Learnable Spatio-Temporal Map Embeddings for Deep Inertial Localization",
+            "thesis": "Learnable Spatio-Temporal Map Embeddings for Deep Inertial Localization@melamed_learnable_2022",
             "selected_coursework":[
                 "Kinematics, Dynamics & Control",
                 "Localization & Mapping", 
@@ -85,7 +85,6 @@
             "end_date": "May 2019",
             "location": "Minneapolis, MN",
             "thesis": "Indoor Micro-UAV Navigation with Minimal Sensing (Profs. Volkan Isler & Derya Aksaray)",
-            "selected_coursework":[],
             "notes":[
                 "IEEE-Eta Kappa Nu – Omicron Student Chapter – Vice President 2018-2019"
             ]
