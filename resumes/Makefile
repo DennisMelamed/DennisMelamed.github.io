@@ -6,26 +6,15 @@ all: resume recent_update
 
 recent_update:
 	@cp $(MOST_RECENT_PDF_FILE) most_recent/ResumeDennisMelamed.pdf
-	@git add most_recent/ResumeDennisMelamed.pdf $(MOST_RECENT_PDF_FILE) $(DOC_FILE)
+	@git add most_recent/ResumeDennisMelamed.pdf $(MOST_RECENT_PDF_FILE) $(JSON_FILE)
 
 
 resume: FORCE
 	@echo "--------------------"
-	@echo $(DOC_FILE)
 	@echo "[PDF]"
 	@cd typst_resume && uv run src/typst_resume/gen_typst.py ../json/ ../pdfs ../typst #$(JSON_FILE) /tmp/intermediate ../pdfs
-#	@/Applications/LibreOffice.app/Contents/MacOS/soffice --headless --convert-to pdf $(DOC_FILE) --outdir pdfs/
-#	@echo "[TXT]"
-#	@/Applications/LibreOffice.app/Contents/MacOS/soffice --headless --convert-to txt $(DOC_FILE) --outdir txts/
 	@echo "done!"
 	@echo "--------------------"
 
-full: all/resume.json FORCE
-	@echo "--------------------"
-	@echo "--------------------"
-	
-cv: cv/cv_filters.filter FORCE
-	@echo "--------------------"
-	@echo "--------------------"
 
 FORCE:

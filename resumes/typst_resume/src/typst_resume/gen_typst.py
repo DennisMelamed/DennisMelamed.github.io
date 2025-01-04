@@ -48,9 +48,6 @@ def process(json_folder: str, pdf_folder: str, typst_folder: str):
     json_folder = ub.Path(json_folder)
     pdf_folder = ub.Path(pdf_folder)
     typst_folder = ub.Path(typst_folder)
-    print(json_folder)
-    print(typst_folder)
-    print(pdf_folder)
 
     json_folder.ensuredir()
     pdf_folder.ensuredir()
