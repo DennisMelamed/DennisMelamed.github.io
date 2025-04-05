@@ -1,0 +1,128 @@
+{
+    "name": "Dennis Melamed",
+    "email": "dennis@dennismelamed.me",
+    "website": "dennismelamed.me",
+    "location": "Minneapolis, MN",
+    "github": "github.com/DennisMelamed",
+    "linkedin": "linkedin.com/in/dennismelamed/",
+    "phone": "(+1) 763-656-9518",
+    
+    "experience": [
+        {
+            "position": "Senior Research & Development Engineer",
+            "company": "Kitware",
+            "start_date": "Aug 2021",
+            "end_date": "Present",
+            "notes": [
+                "Trained building damage identification systems for satellite imagery, reducing training data needs 1000x.@melamed_rapid_2023",
+                "Created & released open dataset for training building damage detectors @melamed_uncovering_2024",
+                "Designed framework to deconflict multiple object detectors using prior information and detector trust metrics @davila_multi-atr_2023",
+                "Architected & developed inspection tool (as lead of 5 person team) for localizing aircraft defects to 5 cm accuracy.",
+                "Developed pose estimation algorithms & experimental hardware for event camera star tracking, achieving 20 arcsecond accuracy.@reed_ebs-ekf_2025"
+            ]
+        },
+        {
+            "position": "Software Intern",
+            "company": "Nextdroid Robotics",
+            "start_date": "June 2018",
+            "end_date": "Aug 2018",
+            "notes": [
+                "Deployed sensorless high-precision motor speed control for subsea robotic platform",
+                "Co-developed high-accuracy image processing for aerial scene understanding"
+            ]
+        },
+        {
+            "position": "Software Intern",
+            "company": "National Instruments",
+            "start_date": "June 2017",
+            "end_date": "Aug 2017",
+            "notes": [
+                "Implemented network interfaces for measurement device drivers to maintain stability on newer platforms",
+                "Developed encryption systems to allow first-in-company secure device firmware/driver communication"
+            ]
+        },
+        {
+            "position": "Research Assistant",
+            "company": "Robotic Sensor Networks Lab, University of Minnesota",
+            "start_date": "Feb 2015",
+            "end_date": "May 2019",
+            "notes": [
+                "Developed GPS-denied micro-UAV platform for agriculture using ROS, C, and V-REP simulation",
+                "Designed and trialed computer vision system for micro-UAV control using low-resolution imaging"
+            ]
+        },
+        {
+            "position": "Research Assistant",
+            "company": "Dept. of Civil Engineering, University of Minnesota",
+            "start_date": "Oct 2015",
+            "end_date": "May 2016",
+            "notes": [
+                "Parallelized state-of-art wave propagation algorithms to speed concrete simulations by 10x",
+                "Designed MN Dept. of Transport user interfaces to ease ground-penetrating radar data analysis"
+            ]
+        }
+    ],
+    "education":[
+        {
+            "degree": "M.S. in Robotics",
+            "university": "Carnegie Mellon University",
+            "advisor": "Prof. Kris Kitani",
+            "start_date": "Aug 2019",
+            "end_date": "July 2021",
+            "location": "Pittsburgh, PA",
+            "thesis": "Learnable Spatio-Temporal Map Embeddings for Deep Inertial Localization@melamed_learnable_2022"
+        },
+        {
+            "degree": "B.Sci. in Computer Engineering, Summa Cum Laude with Distinction",
+            "university": "University of Minnesota",
+            "advisor": "Prof. Volkan Isler",
+            "start_date": "Sept 2015",
+            "end_date": "May 2019",
+            "location": "Minneapolis, MN",
+            "thesis": "Indoor Micro-UAV Navigation with Minimal Sensing (Profs. Volkan Isler & Derya Aksaray)",
+            "notes":[
+            ]
+        }
+    ],
+    "skills":{
+        "Programming Languages": [
+            "Python",
+            "C++",
+            "Embedded C",
+            "MATLAB",
+            "Java"
+        ],
+        "Robotics Tools": [
+            "Robotics Operating System (ROS)",
+            "Gazebo",
+            "V-REP"
+        ],
+        "Other Tools": [
+            "Git",
+            "Pytorch",
+            "OpenCV",
+            "scikit-learn",
+            "Linux",
+            "Latex",
+            "Windows Kernel",
+            "Blender",
+            "QGIS",
+            "ONNX",
+            "Triton",
+            "DVC"
+        ],
+        "Languages": [
+            "English (native)",
+            "Russian (native)",
+            "Spanish (proficient)"
+        ]
+    },
+    "publications":[
+        "reed_ebs-ekf_2025",
+        "sun_idol_2021",
+        "melamed_learnable_2022",
+        "melamed_uncovering_2024",
+        "davila_multi-atr_2023",
+        "melamed_rapid_2023"
+    ]
+}
