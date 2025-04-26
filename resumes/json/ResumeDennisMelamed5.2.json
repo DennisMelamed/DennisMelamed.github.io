@@ -57,8 +57,7 @@
             "start_date": "Oct 2015",
             "end_date": "May 2016",
             "notes": [
-                "Parallelized state-of-art wave propagation algorithms to speed concrete simulations by 10x",
-                "Designed MN Dept. of Transport user interfaces to ease ground-penetrating radar data analysis"
+                "Parallelized state-of-art wave propagation algorithms to speed concrete simulations by 10x"
             ]
         }
     ],
