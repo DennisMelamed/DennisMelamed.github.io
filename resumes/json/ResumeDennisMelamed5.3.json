@@ -1,0 +1,121 @@
+{
+    "name": "Dennis Melamed",
+    "email": "dennis@dennismelamed.me",
+    "website": "dennismelamed.me",
+    "location": "Minneapolis, MN",
+    "github": "github.com/DennisMelamed",
+    "linkedin": "linkedin.com/in/dennismelamed/",
+    "phone": "(+1) 763-656-9518",
+    
+    "experience": [
+        {
+            "position": "Senior Research & Development Engineer",
+            "company": "Kitware",
+            "start_date": "Aug 2021",
+            "end_date": "Present",
+            "notes": [
+                "Led proposal efforts to customers including NGA, Space Force, and NASA. Secured >\\$2 million in awarded proposals.",
+                "Developed building damage detection systems for remote sensing (EO/SAR), reducing training data needs 1000x.@melamed_uncovering_2024",
+                "Designed deconfliction framework for multiple object detectors using prior information and detector trust metrics.",
+                "Architected & developed inspection tool (as lead of 5 person team) for localizing aircraft defects to 5 cm accuracy.",
+                "Developed novel pose estimation algorithms for event camera star tracking, achieving 20 arcsecond accuracy.@reed_ebs-ekf_2025 @hashemi_centroiding_2025 @melamed_quantifying_2025"
+            ]
+        },
+        {
+            "position": "Software Intern",
+            "company": "Nextdroid Robotics",
+            "start_date": "June 2018",
+            "end_date": "Aug 2018",
+            "notes": [
+                "Deployed sensorless high-precision motor speed control for subsea robotic platform",
+                "Co-developed high-accuracy image processing for aerial scene understanding"
+            ]
+        },
+        {
+            "position": "Software Intern",
+            "company": "National Instruments",
+            "start_date": "June 2017",
+            "end_date": "Aug 2017",
+            "notes": [
+                "Implemented network interfaces for measurement device drivers to maintain stability on newer platforms",
+                "Developed encryption systems to allow first-in-company secure device firmware/driver communication"
+            ]
+        },
+        {
+            "position": "Research Assistant",
+            "company": "Robotic Sensor Networks Lab, University of Minnesota",
+            "start_date": "Feb 2015",
+            "end_date": "May 2019",
+            "notes": [
+                "Developed GPS-denied micro-UAV platform for agriculture using ROS, C, and V-REP simulation"
+            ]
+        }
+    ],
+    "education":[
+        {
+            "degree": "M.S. in Robotics",
+            "university": "Carnegie Mellon University",
+            "advisor": "Prof. Kris Kitani",
+            "start_date": "Aug 2019",
+            "end_date": "July 2021",
+            "location": "Pittsburgh, PA",
+            "thesis": "Learnable Spatio-Temporal Map Embeddings for Deep Inertial Localization@melamed_learnable_2022 @sun_idol_2021"
+        },
+        {
+            "degree": "B.Sci. in Computer Engineering, Summa Cum Laude with Distinction",
+            "university": "University of Minnesota",
+            "advisor": "Prof. Volkan Isler",
+            "start_date": "Sept 2015",
+            "end_date": "May 2019",
+            "location": "Minneapolis, MN",
+            "thesis": "Indoor Micro-UAV Navigation with Minimal Sensing (Profs. Volkan Isler & Derya Aksaray)",
+            "notes":[
+            ]
+        }
+    ],
+    "skills":{
+        "Programming Languages": [
+            "Python",
+            "C++",
+            "Embedded C",
+            "MATLAB",
+            "Java"
+        ],
+        "Robotics Tools": [
+            "Robotics Operating System (ROS)",
+            "Gazebo",
+            "V-REP"
+        ],
+        "Frameworks/Libraries": [
+            "Pytorch",
+            "OpenCV",
+            "scikit-learn",
+            "ONNX",
+            "Triton",
+            "DVC",
+            "NanoSatellite Protocol (NSP)"
+        ],            
+        "Other Tools": [
+            "Git",
+            "Linux",
+            "Latex",
+            "Windows Kernel",
+            "Blender",
+            "QGIS",
+            "Gitlab CI/CD"
+        ],
+        "Languages": [
+            "English (native)",
+            "Russian (native)",
+            "Spanish (proficient)"
+        ]
+    },
+    "publications":[
+        "reed_ebs-ekf_2025",
+        "melamed_quantifying_2025",
+        "hashemi_centroiding_2025",
+        "sun_idol_2021",
+        "melamed_learnable_2022",
+        "melamed_uncovering_2024"
+    ]
+}

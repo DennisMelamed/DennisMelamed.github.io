@@ -8,6 +8,7 @@ dependencies = [
     "typst>=0.11.1",
     "ubelt>=1.3.6",
     "fire>=0.7.0",
+    "pyzotero>=1.6.11",
 ]
 
 [build-system]
