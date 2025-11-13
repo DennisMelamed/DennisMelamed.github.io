@@ -13,7 +13,7 @@ typst_header = ub.codeblock('''
 
 // Feel free to change the margin below to best fit your own CV
 #set page(
-  margin: (x: 0.9cm, y: 0.9cm),
+  margin: (x: 2cm, y: 1.5cm),
 )
 
 // For more customizable options, please refer to official reference: https://typst.app/docs/reference/
